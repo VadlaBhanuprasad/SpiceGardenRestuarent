@@ -309,8 +309,7 @@ const Menu: React.FC<MenuProps> = ({ onAddToCart }) => {
 
     // Appetizers (25 items)
       const appetizers = [
-      'Vegetable Samosa', 'Onion Pakora','Papdi Chaat','Masala Dosa','Rava Idli','Dahi Vada','Uttapam','Dhokla', 'Kachori','Bhel Puri', 'Pani Puri','Aloo Tikki', 'Chole Bhature',
-        'Raj Kachori', 'Dahi Vada','Papdi Chaat','Sev Puri', 'Bhajiya', 'Medu Vada','Rava Idli','Rava Dosa', 'Mysore Pak','Upma','Poha'
+     'Samosa','Pakora','Chaat','Dosa','Idli','Vada','Uttapam','Dhokla','Kachori','Bhel Puri','Pani Puri','Aloo Tikki','Chole Bhature','Raj Kachori','Dahi Vada','Papdi Chaat','Sev Puri','Bhajiya','Medu Vada','Rava Idli','Masala Dosa','Rava Dosa','Mysore Pak','Upma','Poha'
     ];
 
     appetizers.forEach((name, index) => {
